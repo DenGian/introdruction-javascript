@@ -14,6 +14,14 @@ window.alert("sometext");
 #### Source: 
 * https://libguides.library.kent.edu/spss/variabletypes
 ---
+### What is a dialog box (alert box)?
+* explanation:
+  * An alert dialog box is mostly used to give a warning message to the users. For example, if one input field requires to enter some text but the user does not provide any input, then as a part of validation, you can use an alert box to give a warning message.
+
+Nonetheless, an alert box can still be used for friendlier messages. Alert box gives only one button "OK" to select and proceed.
+#### Source:
+* https://www.tutorialspoint.com/javascript/javascript_dialog_boxes.htm
+---
 ### Solution:
 ````
 *window.alert("Hello, World");
