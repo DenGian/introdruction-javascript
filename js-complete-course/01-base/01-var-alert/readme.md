@@ -15,3 +15,5 @@ In the file script.js, create a variable with the name of your choice, and set t
 ### Solution:
 * window.alert("Hello, World");
 ---
+### Usefull link:
+* https://www.w3schools.com/js/js_popup.asp
