@@ -37,5 +37,5 @@ __Note: No "else function" was needed.__
 ````
 ### Useful link:
 * https://stackoverflow.com/questions/37823313/javascript-prompt-and-submit
-* 
+* https://www.w3schools.com/jsref/met_win_prompt.asp
 
