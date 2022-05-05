@@ -9,6 +9,16 @@ var name = window. prompt("Enter your name: ");
 alert("some text" + name); 
 ````
 ---
+### What is a prompt box?
+* explanation:
+  * A prompt box is often used if you want the user to input a value before entering a page.
+
+When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+If the user clicks "OK" the box returns the input value. 
+If the user clicks "Cancel" the box returns null.
+#### Source: https://www.w3schools.com/js/js_popup.asp
+
+---
 ### Solution:
 ````
 var name = window. prompt("Enter your name: ");
