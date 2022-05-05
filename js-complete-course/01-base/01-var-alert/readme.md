@@ -4,7 +4,9 @@
 ### Objective:
 In the file script.js, create a variable with the name of your choice, and set the value to be a string Hello, World!. Display the variable in in a dialog box (alert box).
 #### code needed:
-* window.alert("sometext");
+````
+window.alert("sometext");
+````
 ---
 ### What is a string?
 * explanation:
@@ -13,7 +15,9 @@ In the file script.js, create a variable with the name of your choice, and set t
 * https://libguides.library.kent.edu/spss/variabletypes
 ---
 ### Solution:
-* window.alert("Hello, World");
+````
+*window.alert("Hello, World");
+````
 ---
-### Usefull link:
+### Useful link:
 * https://www.w3schools.com/js/js_popup.asp
