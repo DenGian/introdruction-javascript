@@ -11,6 +11,14 @@
 
 (function() {
 
-    // your code here
+    let bg = document.getElementById("color");
+    let btnrun = document.getElementById("run");
+
+    btnrun.addEventListener('click',colorchange);
+
+    function colorchange(){
+        document.body.style.backgroundColor = bg.value;
+    }
+
 
 })();

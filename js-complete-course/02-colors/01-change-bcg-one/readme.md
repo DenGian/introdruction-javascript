@@ -61,7 +61,7 @@ For each button, when clicked change the background color of the page to the one
 ---
 ### Solution:
 ````
-  let btnred = document.getElementById("red");
+    let btnred = document.getElementById("red");
     let btngreen = document.getElementById("green");
     let btnyellow = document.getElementById("yellow");
     let btnblue = document.getElementById("blue");
