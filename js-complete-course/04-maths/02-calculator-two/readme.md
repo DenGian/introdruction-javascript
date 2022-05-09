@@ -22,9 +22,9 @@ switch(expression) {
 ### Solution
 ````
 (function() {
-    let one = document.getElementById("op-one").value;
-    let two = document.getElementById("op-two").value;
     var performOperation = function(operation) {
+        let one = document.getElementById("op-one").value;
+        let two = document.getElementById("op-two").value;
         switch(operation){
             case "addition":
                 alert(Number(one)+Number(two));
@@ -47,6 +47,7 @@ switch(expression) {
         });
     });
 })();
+
 ````
 ---
 ### Useful links:
