@@ -1,14 +1,12 @@
-/* becode/javascript
- *
- * /02-maths/03-even-square/script.js - 2.3: carrés des pairs
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 04-even-square-Optional
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+On click on the button, calculate and display the square numbers between 1 and 21.
 
+---
+### Solution
+````
 (function() {
 
     document.getElementById("run").addEventListener("click", function() {
@@ -21,3 +19,7 @@
     });
 
 })();
+````
+---
+### Useful link:
+* https://stackoverflow.com/questions/3278556/for-loop-with-if-else-statement
