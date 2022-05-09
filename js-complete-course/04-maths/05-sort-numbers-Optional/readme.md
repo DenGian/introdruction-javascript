@@ -1,14 +1,12 @@
-/* becode/javascript
- *
- * /02-maths/04-sort-numbers/script.js - 2.4: classer des nombres
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 05-sort-numbers-Optional
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+On click to the button, get the numbers displayed in the input, and display them sorted in ascending order.
 
+---
+### Solution
+````
 (function() {
 
     // to get the value of an input: document.getElementById("element-id").value
@@ -21,3 +19,8 @@
     });
 
 })();
+````
+---
+### Useful links:
+* https://www.w3schools.com/jsref/jsref_sort.asp
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
