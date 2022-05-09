@@ -1,18 +1,13 @@
-/* becode/javascript
- *
- * /02-maths/01-calculator-one/script.js - 2.1: calculatrice
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 01-calculator-one
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+Correct the script to make the calculator work.
 
-(function() {
-    // to get the value of an input: document.getElementById("element-id").value
-
-    document.getElementById("addition").addEventListener("click", function() {
+---
+### Solution
+````
+document.getElementById("addition").addEventListener("click", function() {
         let one = document.getElementById("op-one").value;
         let two = document.getElementById("op-two").value;
         alert(Number(one) + Number(two))
@@ -35,4 +30,8 @@
         let two = document.getElementById("op-two").value;
         alert(one / two)
     });
-})();
+````
+---
+### Useful links
+* https://www.w3schools.com/js/js_number_methods.asp
+* https://www.w3schools.com/jsref/jsref_number.asp
