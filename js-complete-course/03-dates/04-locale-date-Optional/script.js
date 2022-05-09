@@ -15,8 +15,8 @@
     const date = new Date;
     const writing = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     const hours = date.getHours();
-    const minutes = String(date.getMinutes()).padStart(2, '0'); /* Now there is a 0 if ther is only 1 number*/
-    let currentDate = date.toLocaleString('en-US', writing);
+    const minutes = String(date.getMinutes()).padStart(2, '0'); /* Now there is a 0 if there is only 1 number*/
+    let currentDate = date.toLocaleString('en-GB', writing);
     let currentDate2 = currentDate.replace(/,/g, '') /* So there is no "," */
 
     document.getElementById("target").innerText = currentDate2 + ", " + hours + "h" + minutes;

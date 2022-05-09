@@ -7,6 +7,9 @@ Change the content of the indicated tag by the date of today, in English (ex : S
 #### Use of "numerical" and "long"
 * Useful link:
   * https://devhints.io/wip/intl-datetime
+#### Use of Date toLocaleString()
+* Useful link:
+  * https://www.w3schools.com/jsref/jsref_tolocalestring.asp
 
 ---
 ### Solution
