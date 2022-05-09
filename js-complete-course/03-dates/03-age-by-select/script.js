@@ -19,7 +19,7 @@
         let m1 = document.getElementById('dob-month').value;
         let y1 = document.getElementById('dob-year').value;
 
-        let date = new Date();
+        let date = new Date(); /* date of today */
         let d2 = date.getDate();
         let m2 = 1 + date.getMonth();
         let y2 = date.getFullYear();
@@ -33,8 +33,8 @@
             m2 = m2 + 12;
             y2 = y2 - 1;
         }
-        let d = d2 - d1; /* to calc days aswell */
-        let m = m2 - m1; /* to calc months aswell */
+        let d = d2 - d1; /* to calc days as well */
+        let m = m2 - m1; /* to calc months as well */
         let y = y2 - y1;
 
         alert('Your Age is '+ y +' Years '+ m + ' Months ' + d + ' Days ');
