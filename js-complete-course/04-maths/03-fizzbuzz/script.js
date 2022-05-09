@@ -11,6 +11,29 @@
 
 (function() {
 
-    // your code here
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            fizzbuzz()
+        }
+        else if (i % 3 === 0) {
+            fizz()
+        }
+        else if (i % 5 === 0) {
+            buzz()
+        }
+        else {
+            console.log(i);
+        }
+    }
+
+    function fizz() {
+        console.log("fizz")
+    }
+    function buzz() {
+        console.log("buzz")
+    }
+    function fizzbuzz() {
+        console.log("fizzbuzz")
+    }
 
 })();
