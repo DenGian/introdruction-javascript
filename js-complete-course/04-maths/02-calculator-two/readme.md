@@ -1,16 +1,27 @@
-/* becode/javascript
- *
- * /02-maths/02-calculator-two/script.js - 2.2: calculatrice (2)
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 02-calculator-two
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
-
+---
+### Objective
+Complete the script to make the calculator work. To do it use the switch.
+#### What is a switch?
+* Example:
+````
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+````
+* Link: https://www.w3schools.com/js/js_switch.asp
+---
+### Solution
+````
 (function() {
-    // to get the value of an input: document.getElementById("element-id").value
     let one = document.getElementById("op-one").value;
     let two = document.getElementById("op-two").value;
     var performOperation = function(operation) {
@@ -36,3 +47,8 @@
         });
     });
 })();
+````
+---
+### Useful links:
+* https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/switch
+* Some more info on switch statement: https://www.freecodecamp.org/news/javascript-switch-case-js-switch-statement-example/
