@@ -17,9 +17,12 @@
    let hour = date.getHours();
    let minute = date.getMinutes();
 
-   if (hour < 18 && minute <= 30) {
+   if (hour < 17) {
       document.getElementById("target").innerHTML = "Hello";
-   } else {
+   } else if (hour === 17 && minute<= 30){
+      document.getElementById("target").innerHTML = "Hello";
+   }
+   else {
       document.getElementById("target").innerHTML = "Good evening";
    }
 
