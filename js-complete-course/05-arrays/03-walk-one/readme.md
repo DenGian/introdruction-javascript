@@ -1,4 +1,4 @@
-## 03-walk-array
+## 03-walk-one
 
 ---
 ### Objective
