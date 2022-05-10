@@ -1,14 +1,12 @@
-/* becode/javascript
- *
- * /05-arrays/05-walk-three/script.js - 5.5: parcours de tableau (3)
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 03-walk-three
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+When you click the button, display on the console, one after the other, the name of each person in the array people. Use the forEach method.
 
+---
+### Solution
+````
 (function() {
     run.addEventListener('click',loop);
     var people = [
@@ -43,3 +41,8 @@
     }
 
 })();
+````
+---
+### Useful links
+* Loop: https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/#:~:text=Loops%20are%20used%20in%20JavaScript,the%20defined%20condition%20returns%20false%20.
+* https://www.programiz.com/javascript/forEach
