@@ -1,14 +1,12 @@
-/* becode/javascript
- *
- * /05-arrays/07-filter-array/script.js - 5.7: filtrer un tableau
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 07-filter-array
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+When you click the button, create a new array from the array people, containing only the people whose age is more than 18 years. Display the resulting array in the console.
 
+---
+### Solution
+````
 (function() {
 
     var people = [
@@ -95,3 +93,7 @@
     });
 
 })();
+````
+---
+### Useful link
+* console.log: https://www.geeksforgeeks.org/javascript-console-log-with-examples/

@@ -128,6 +128,6 @@ indexOf(searchElement, fromIndex)
 })();
 ````
 ---
-### Useful link
+### Useful links
 * https://www.w3schools.com/jsref/jsref_indexof.asp
 * https://www.w3schools.com/js/js_operators.asp
