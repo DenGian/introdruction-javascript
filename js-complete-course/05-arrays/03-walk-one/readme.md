@@ -1,14 +1,12 @@
-/* becode/javascript
- *
- * /05-arrays/01-get-element/script.js - 5.1: élément de tableau
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 03-walk-array
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+When you click the button, display in the console, one after the other (use a loop), each value of the fruits array.
 
+---
+### Solution
+````
 (function() {
 
     var fruits = [
@@ -36,3 +34,8 @@
     }
 
 })();
+````
+---
+### Useful links
+* https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript
+* https://www.freecodecamp.org/news/javascript-for-loop-how-to-loop-through-an-array-in-js/
