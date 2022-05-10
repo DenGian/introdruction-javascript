@@ -88,7 +88,8 @@
             age: 81,
         },
     ];
-
-    // your code here
-
+    document.getElementById("run").addEventListener("click", () => {
+        let sum = people.reduce((init, people) => init + people.age, 0);
+        console.log(sum);
+    });
 })();
