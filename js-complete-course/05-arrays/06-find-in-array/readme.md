@@ -1,14 +1,45 @@
-/* becode/javascript
- *
- * /05-arrays/06-find-in-array/script.js - 5.6: recherche dans un tableau
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+## 06-find-in-array
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+---
+### Objective
+When you click the button, display in the console the mail adress of the person in the array people whose lastname is "Dupont" and firstname is "Jean". Then display his index in this array.
 
+#### Use of Comparison operators
+* Comparison operators are used in logical statements to determine equality or difference between variables or values.
+  * Example
+````
+==	Equal to: true if the operands are equal	                                                        5==5; //true
+!=	Not equal to: true if the operands are not equal	                                                5!=5; //false
+===	Strict equal to: true if the operands are equal and of the same type	                            5==='5'; //false
+!==	Strict not equal to: true if the operands are equal but of different type or not equal at all	    5!=='5'; //true
+>	Greater than: true if the left operand is greater than the right operand	                        3>2; //true
+>=	Greater than or equal to: true if the left operand is greater than or equal to the right operand	3>=3; //true
+<	Less than: true if the left operand is less than the right operand	                                3<2; //false
+<=	Less than or equal to: true if the left operand is less than or equal to the right operand	        2<=2; //true
+````
+#### Useful link: https://www.programiz.com/javascript/comparison-logical
+
+#### Use of Array.prototype.indexOf()
+* The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+  * Example
+````
+const array = [2, 9, 9];
+array.indexOf(2);       // 0
+array.indexOf(7);       // -1
+array.indexOf(9, 2);    // 2
+array.indexOf(2, -1);   // -1
+array.indexOf(2, -3);   // 0
+````
+* Syntax
+````
+indexOf(searchElement)
+indexOf(searchElement, fromIndex)
+````
+##### Useful link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf?retiredLocale=nl
+
+---
+### Solution
+````
 (function() {
 
     var people = [
@@ -95,3 +126,8 @@
     });
 
 })();
+````
+---
+### Useful link
+* https://www.w3schools.com/jsref/jsref_indexof.asp
+* https://www.w3schools.com/js/js_operators.asp
