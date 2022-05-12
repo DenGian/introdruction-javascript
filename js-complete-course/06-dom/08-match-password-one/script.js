@@ -11,6 +11,21 @@
 
 (function() {
 
-    // your code here
+    document.getElementById('run').addEventListener('click',comparePasswords)
+    console.log('click')
+    function comparePasswords(){
+        console.log('compare pw function start')
+        let pass1 = document.getElementById('pass-one').value;
+        let pass2 = document.getElementById('pass-two').value;
+        console.log('pass1:'+pass1)
+        if(pass1===pass2){
+            alert('password input correct!')
+        } else {
+            document.getElementById('pass-two').style.border = 'solid red';
+            document.getElementById('pass-one').style.border = 'solid red';
+        }
+    }
+
+
 
 })();
